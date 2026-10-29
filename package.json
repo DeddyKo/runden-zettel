@@ -1,0 +1,1 @@
+{"type":"module","private":true,"name":"runden-zettel","scripts":{"test":"node --test tests/kalender.test.mjs tests/api.test.mjs"}}

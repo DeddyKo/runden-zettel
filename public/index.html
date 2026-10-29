@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="referrer" content="no-referrer">
+	<meta name="theme-color" content="#e5e7eb">
+	<title>Runden-Zettel – Spieletreff Tecklenburger Land</title>
+	<meta name="description" content="Wer bringt was mit? Spielrunden für den Spieletreff Tecklenburger Land.">
+	<link rel="icon" href="favicon.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+	<header class="kopf">
+		<div class="kopf-innen">
+			<div class="kopf-zeile">
+				<span class="marke">Spieletreff Tecklenburger Land</span>
+				<span class="probe" id="probe" hidden>Probemodus · nur auf diesem Gerät</span>
+			</div>
+			<h1>Runden-Zettel</h1>
+			<p class="unterzeile">Wer bringt was mit? Tisch anlegen, Link in die WhatsApp-Gruppe, fertig.</p>
+		</div>
+	</header>
+
+	<main class="inhalt" id="app" aria-live="polite">
+		<p class="laden">Lade Termine …</p>
+	</main>
+
+	<div class="inhalt" style="padding-top:0">
+		<footer class="fuss">
+			<div>Gespeichert werden nur Vornamen und freiwillige Kommentare. Am Tag nach dem Spielabend wird alles automatisch gelöscht. Kein Login, kein Tracking.</div>
+			<div>Kommen ohne Eintrag ist natürlich weiterhin jederzeit möglich.</div>
+			<div><a href="hinweise.html">Impressum &amp; Datenschutz</a> · <a href="https://www.spieletreff-tecklenburgerland.de/" rel="noopener">Zur Spieletreff-Website</a></div>
+		</footer>
+	</div>
+
+	<div class="meldung" id="meldung" role="status" hidden></div>
+	<noscript><p class="inhalt">Der Runden-Zettel braucht JavaScript.</p></noscript>
+	<script src="app.js"></script>
+</body>
+</html>
